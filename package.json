@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w -r src/styles/style.scss -o src/css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/danielmark0116/zadanie18-6-react-lifecycles/issues"
   },
-  "homepage": "https://github.com/danielmark0116/zadanie18-6-react-lifecycles#readme"
+  "homepage": "https://github.com/danielmark0116/zadanie18-6-react-lifecycles#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
